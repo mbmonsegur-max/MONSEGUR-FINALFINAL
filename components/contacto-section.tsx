@@ -37,7 +37,7 @@ export function ContactoSection() {
             <h3 className="text-xl font-semibold mb-4">REDES SOCIALES:</h3>
             <div className="flex items-center justify-center gap-4">
               <a 
-                href="https://linkedin.com" 
+                href="https://linkedin.com/in/mariamonsegur/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-12 h-12 bg-white text-[#0077B5] rounded-lg flex items-center justify-center hover:scale-110 transition-transform"
@@ -45,7 +45,7 @@ export function ContactoSection() {
                 <Linkedin className="h-6 w-6" />
               </a>
               <a 
-                href="https://instagram.com" 
+                href="https://instagram.com/monseguro/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-12 h-12 bg-white rounded-lg flex items-center justify-center hover:scale-110 transition-transform overflow-hidden"
@@ -55,7 +55,7 @@ export function ContactoSection() {
                 </div>
               </a>
               <a 
-                href="https://tiktok.com" 
+                href="https://tiktok.com/@mariamonseguro" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-12 h-12 bg-white text-black rounded-lg flex items-center justify-center hover:scale-110 transition-transform"
