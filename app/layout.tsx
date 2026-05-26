@@ -1,16 +1,19 @@
 import type { Metadata } from 'next'
-import { Montserrat, Lora } from 'next/font/google'
+import { dmSans, Lora } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const montserrat = Montserrat({ 
-  subsets: ["latin"],
+import { DM_Sans, Lora } from 'next/font/google'
+
+const dmSans = DM_Sans({
+  subsets: ['latin'],
   variable: '--font-sans'
-});
-const lora = Lora({ 
-  subsets: ["latin"],
+})
+
+const lora = Lora({
+  subsets: ['latin'],
   variable: '--font-serif'
-});
+})
 
 export const metadata: Metadata = {
   title: 'MONSEGURO - María Monsegur | Productora de Seguros',
@@ -41,8 +44,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="es" className={`${montserrat.variable} ${lora.variable}`}>
-      <body className="font-sans antialiased bg-background">
+    <html lang="es" className={`${dmSans.variable} ${lora.variable}`}>
+      <body className={`${dmSans.variable} ${lora.variable}`}>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
