@@ -119,7 +119,6 @@
   * {
     @apply border-border outline-ring/50;
   }
-  body {
-    font-family: var(--font-sans);
-  }
+body {
+  font-family: var(--font-sans);
 }
