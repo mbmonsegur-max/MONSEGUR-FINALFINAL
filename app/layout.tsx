@@ -1,9 +1,7 @@
 import type { Metadata } from 'next'
-import { dmSans, Lora } from 'next/font/google'
+import { DM_Sans, Lora } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
-
-import { DM_Sans, Lora } from 'next/font/google'
 
 const dmSans = DM_Sans({
   subsets: ['latin'],
