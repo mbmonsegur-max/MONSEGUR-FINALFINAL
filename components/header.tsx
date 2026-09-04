@@ -64,6 +64,16 @@ export function Header() {
                 </a>
               </li>
             ))}
+            <li>
+              <a
+                href="https://monseguro.tiendup.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors py-4 block"
+              >
+                Curso para productores
+              </a>
+            </li>
           </ul>
 
           {/* Mobile placeholder for centering */}
@@ -85,6 +95,17 @@ export function Header() {
                   </a>
                 </li>
               ))}
+              <li>
+                <a
+                  href="https://monseguro.tiendup.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block py-2 px-4 text-foreground/80 hover:text-primary hover:bg-muted rounded-lg transition-colors"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Curso para productores
+                </a>
+              </li>
             </ul>
             <div className="mt-4 pt-4 border-t border-border px-4 flex flex-col gap-2">
               <a href="mailto:maria@monsegur.com" className="flex items-center gap-2 text-sm text-muted-foreground">
