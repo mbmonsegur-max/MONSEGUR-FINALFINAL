@@ -15,7 +15,7 @@ export function HeroSection() {
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-serif italic">
               Contratá tu seguro con confianza y sin dudas
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <div className="flex justify-center lg:justify-start">
               <Button 
                 asChild 
                 size="lg" 
@@ -23,6 +23,13 @@ export function HeroSection() {
               >
                 <a href="#cotizador">COTIZA UN SEGURO</a>
               </Button>
+            </div>
+
+            {/* Bloque independiente: acceso al curso para productores */}
+            <div className="mt-10 pt-8 border-t border-border/60">
+              <p className="text-sm uppercase tracking-wide text-muted-foreground mb-3">
+                Curso para productores
+              </p>
               <Button 
                 asChild 
                 size="lg" 
