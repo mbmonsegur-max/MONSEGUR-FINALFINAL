@@ -15,13 +15,23 @@ export function HeroSection() {
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-serif italic">
               Contratá tu seguro con confianza y sin dudas
             </p>
-            <Button 
-              asChild 
-              size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all"
-            >
-              <a href="#cotizador">COTIZA UN SEGURO</a>
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <Button 
+                asChild 
+                size="lg" 
+                className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all"
+              >
+                <a href="#cotizador">COTIZA UN SEGURO</a>
+              </Button>
+              <Button 
+                asChild 
+                size="lg" 
+                variant="outline"
+                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all bg-transparent"
+              >
+                <a href="https://monseguro.tiendup.com/" target="_blank" rel="noopener noreferrer">CONOCÉ EL CURSO</a>
+              </Button>
+            </div>
           </div>
 
           {/* Visual Elements - Insurance Icons Grid */}
